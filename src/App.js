@@ -1,7 +1,7 @@
 import Accordian from "./components/accordian/accordian";
 function App() {
   return (
-    <div className="App">
+    <div className="bg-white">
       <Accordian/>
     </div>
   );
