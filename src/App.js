@@ -1,8 +1,9 @@
-import Accordian from "./components/accordian/accordian";
+import Color from "./components/color/Color";
+
 function App() {
   return (
-    <div className="bg-white">
-      <Accordian/>
+    <div style={{color: 'white' }}>
+ <Color/>
     </div>
   );
 }
