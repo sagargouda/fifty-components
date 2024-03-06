@@ -1,9 +1,8 @@
-import Color from "./components/color/Color";
-
+import Star from "./components/starrating/Star";
 function App() {
   return (
-    <div style={{color: 'white' }}>
- <Color/>
+    <div style={{color: 'black' }}>
+        <Star noOfStars={10}/>
     </div>
   );
 }
