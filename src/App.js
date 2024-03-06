@@ -1,8 +1,9 @@
-import Star from "./components/starrating/Star";
+
+import Image from './components/imageslider/image'
 function App() {
   return (
     <div style={{color: 'black' }}>
-        <Star noOfStars={10}/>
+       <Image url={"https://picsum.photos/v2/list"} page={"10"} limit={"4"}/>
     </div>
   );
 }
