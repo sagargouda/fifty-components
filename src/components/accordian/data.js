@@ -1,27 +1,27 @@
-export const objects = [
+export const data = [
     {
-        id: 1,
-        question: "What is the capital of France?",
-        answer: "Paris"
+        "id": 1,
+        "question": "What is the capital of France?",
+        "answer": "The capital of France is Paris."
     },
     {
-        id: 2,
-        question: "What is the tallest mountain in the world?",
-        answer: "Mount Everest"
+        "id": 2,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answer": "William Shakespeare wrote 'Romeo and Juliet'."
     },
     {
-        id: 3,
-        question: "What is the meaning of life?",
-        answer: "That's a philosophical question! There's no one definitive answer."
+        "id": 3,
+        "question": "What is the chemical symbol for water?",
+        "answer": "The chemical symbol for water is H2O."
     },
     {
-        id: 4,
-        question: "What is the name of the largest ocean on Earth?",
-        answer: "The Pacific Ocean"
+        "id": 4,
+        "question": "What is the tallest mountain on Earth?",
+        "answer": "Mount Everest is the tallest mountain on Earth."
     },
     {
-        id: 5,
-        question: "In what year did the first powered flight occur?",
-        answer: "1903"
+        "id": 5,
+        "question": "Who painted the Mona Lisa?",
+        "answer": "Leonardo da Vinci painted the Mona Lisa."
     }
-];
+]
