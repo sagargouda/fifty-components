@@ -1,22 +1,13 @@
-// import Accordian from "./components/accordian/Accordian";
-// import Starrating from "./components/starRating/starrating";
-//
-// import LoadMore from "./components/loadmore/LoadMore";
-//
-// import Pagination from "./components/pagination/Pagination";
-// import PaginationTest from "./components/pagination/PaginationTest";
-
-
-import Qrcode from "./components/qrcode/qrcode";
+// import YoutubeLiveComments from "./components/YoutubeLiveComments/YoutubeLiveComments";
+// import Fivestar from "./components/5star/Fivestar";
+import LightMode from "./components/lightanddarkmode/lightMode";
 
 function App() {
   return (
       <div>
-        {/*<Accordian/>*/}
-        {/*  <Starrating noOfStar={10}/>*/}
-        {/*  <LoadMore/>*/}
-        {/*  <PaginationTest/>*/}
-         <Qrcode/>
+        {/*<YoutubeLiveComments/>*/}
+        {/*  <Fivestar noOfStar={5}/>*/}
+          <LightMode/>
       </div>
   );
 }

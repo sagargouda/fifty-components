@@ -1,38 +1,31 @@
-import {data} from "./data";
-
 import React, {useState} from 'react';
+import {data} from '../accordian/data'
 
 function Accordian(props) {
-    const [ singleSelect , setSingleSelect] = useState(null)
+    const [single , setSingle] = useState(null)
 
-    function handleClick(getId){
-        // console.log(getId)
-        setSingleSelect(singleSelect === getId ? null : getId)
+    function handleChange(getId) {
+        setSingle(single === getId ? null : getId)
     }
-
-
+    
+    
     return (
         <div>
-            <h1>This is Accordian component</h1>
-             <div style={{backgroundColor:'gray',  width: '50%' , height: '50%' , margin: "0 auto"}}>
-                 <ul>
-                     {
-                         data.map((item , index)=>{
-                             return (
-                                     <div key={index}>
-                                     <li onClick={()=>handleClick(index)}>{item.question}</li>>
-                                         {
-                                             singleSelect===index && <li>{item.answer}</li>
-                                         }
-
-                                         </div>
-                             )
-                         })
-                     }
-
-                 </ul>
-
-             </div>
+            <h1>Accordian</h1>
+            <div className="w-[60%] h-auto m-2 p-2 mx-auto bg-yellow-400 ">
+                {
+                    data.length > 0 && data.map((item)=>{
+                        return(
+                            <div onClick={()=>handleChange(item.id)} key={item.id} className="w-[40%] m-2 p-2 mx-auto bg-blue-200">
+                              <p>{item.question}</p>
+                                {
+                                    single === item.id && <p>{item.answer}</p>
+                                }
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     );
 }

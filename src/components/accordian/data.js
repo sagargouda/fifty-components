@@ -1,27 +1,27 @@
 export const data = [
     {
-        "id": 1,
-        "question": "What is the capital of France?",
-        "answer": "The capital of France is Paris."
+        id: 1,
+        question: "What's your favorite color?",
+        answer: "Blue, because it reminds me of the ocean."
     },
     {
-        "id": 2,
-        "question": "Who wrote 'Romeo and Juliet'?",
-        "answer": "William Shakespeare wrote 'Romeo and Juliet'."
+        id: 2,
+        question: "What's the best way to spend a weekend?",
+        answer: "Exploring the outdoors with friends and family."
     },
     {
-        "id": 3,
-        "question": "What is the chemical symbol for water?",
-        "answer": "The chemical symbol for water is H2O."
+        id: 3,
+        question: "What's your favorite book?",
+        answer: "To Kill a Mockingbird, because of its powerful message about empathy and justice."
     },
     {
-        "id": 4,
-        "question": "What is the tallest mountain on Earth?",
-        "answer": "Mount Everest is the tallest mountain on Earth."
+        id: 4,
+        question: "What's the most important quality in a friend?",
+        answer: "Loyalty and honesty, because those are the foundation of any strong relationship."
     },
     {
-        "id": 5,
-        "question": "Who painted the Mona Lisa?",
-        "answer": "Leonardo da Vinci painted the Mona Lisa."
+        id: 5,
+        question: "What's your favorite hobby?",
+        answer: "Photography, because it allows me to capture and preserve special moments in time."
     }
 ]
